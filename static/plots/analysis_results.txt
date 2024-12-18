@@ -1,0 +1,12 @@
+duration: 18.36 seconds
+sampling_frequency: 44100.0 Hz
+amplitude_message: The amplitude is too high, which might cause distortion. Reduce the recording volume.
+intensity_message: 52.599
+Intensity is appropriate.
+pitch_message: Pitch is normal for adult males.
+jitter: 0.031860 (proportion, multiply by 100 for percentage). High jitter detected, which may suggest pitch instability.
+shimmer: 0.115817 (proportion, multiply by 100 for percentage). High shimmer detected, indicating amplitude instability.
+hnr: 9.70 dB. HNR is low, suggesting possible strain or breathiness.
+formant_message: F1 values suggest issues in vowel articulation. F1 and F2 values are within the expected range, indicating normal articulation.
+speech_rate_message: Speech rate is 51.64 syllables per second based on 948 syllables. Speech rate is too slow. Consider practicing fluent speaking.
+plots: {'amplitude': 'static/plots\\amplitude_vs_time.png', 'spectrogram': 'static/plots\\spectrogram_intensity.png', 'pitch': 'static/plots\\spectrogram_pitch.png', 'formants': 'static/plots\\formants.png'}
