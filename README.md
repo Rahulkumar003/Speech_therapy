@@ -16,6 +16,39 @@ Dive into our extensive repository, brimming with resources to boost your speech
 - **Gamified Learning**: Engage with interactive resources that make learning enjoyable.
 - **AI-Driven Insights**: Leverage advanced AI technology for effective speech therapy.
 
+## 🧠 Speech Analysis Module
+
+The **Speech Analysis Module** is the core of SpeakSmart. Here's how it works:
+
+- 🎙️ **Upload Your Voice File**  
+  Begin by uploading your voice recording directly through our simple interface.
+
+- 📊 **Advanced Voice Analysis**  
+  Using the **Parselmouth** library (Python wrapper for Praat), we extract essential vocal features such as:
+  - Pitch
+  - Amplitude
+  - Speech Rate
+  - Formants
+
+- 🧮 **Data Visualization**  
+  We use **NumPy** and **Matplotlib** to display your vocal trends in graphical form. These visuals give users an intuitive way to track and understand their voice patterns over time.
+
+- 🌐 **Web Audio API Integration**  
+  For real-time recording and audio input, we utilized the **Web Audio API**, allowing seamless interaction with your microphone from the browser.
+
+- 🧠 **Personalized AI Therapy**  
+  Based on the analysis results, the system generates targeted recommendations and interactive exercises tailored just for you.
+
+### 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/speech_analysis_upload.jpg" width="30%" />
+  <img src="screenshots/speech_analysis_graph1.jpg" width="30%" />
+  <img src="screenshots/speech_analysis_graph1.jpg" width="30%" />
+</p>
+
+---
+
 ## Getting Started
 
 To run this project locally, follow these steps:
@@ -24,49 +57,3 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/Rahulkumar003/speaksmart.git
    cd speaksmart
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Run the development server**:
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser and navigate to**:
-   ```
-   http://localhost:3000
-   ```
-
-## Available Scripts
-
-- `dev`: Starts the development server.
-- `build`: Builds the app for production.
-- `lint`: Runs ESLint to check for code quality.
-- `preview`: Previews the production build.
-
-## Plugins
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh.
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contributing
-
-We welcome contributions! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
-
-## Contact
-
-For any inquiries or feedback, please reach out to us at [rohit22417@iiitd.ac.in], [prakriti22362@iiitd.ac.in], [rahul22391@iiitd.ac.in].
-
----
-
-Thank you for checking out SpeakSmart! We hope you find it helpful in your speech therapy journey.
