@@ -65,7 +65,7 @@ We welcome contributions! If you have suggestions for improvements or new featur
 
 ## Contact
 
-For any inquiries or feedback, please reach out to us at [your-email@example.com].
+For any inquiries or feedback, please reach out to us at [rohit22417@iiitd.ac.in], [prakriti22362@iiitd.ac.in], [rahul22391@iiitd.ac.in].
 
 ---
 
