@@ -22,7 +22,7 @@ Dive into our extensive repository, brimming with resources to boost your speech
 
 ---
 
-## Speech Analysis Module
+## Speech Analysis Module - done by Rohit Singal & Prakriti Jain
 
 The **Speech Analysis Module** is the heart of SpeakSmart. Here's how it works:
 
